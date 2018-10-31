@@ -14,7 +14,7 @@ var peopleserver = [
 ]
 module.exports = function(app){
     app.get('/', function(req, resp){
-        resp.send("<html><head><link href='assets/style.css' type='text/css' rel='stylesheet'/></head><body><h1>Hello World2</h1></body></html>")
+        resp.send("<html><head><link href='assets/style.css' type='text/css' rel='stylesheet'/></head><body><h1>Hello World Via Git Hub</h1></body></html>")
     });
 
     app.get('/api', function(req, resp){
