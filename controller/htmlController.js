@@ -32,7 +32,7 @@ module.exports = function(app){
     });
 
     app.get('/api/:id', function(req, resp){
-        resp.send("<html><body><h1>"+ req.params.id +"Hello World2''</h1></body></html>")
+        resp.send("<html><body><h1>"+ req.params.id +"Hello World Changed in Git Hub''</h1></body></html>")
     });
 
     app.get('/ejs/:id', function(req, resp){
